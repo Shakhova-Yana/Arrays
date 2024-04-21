@@ -63,5 +63,16 @@ public class Main {
                 System.out.print(", ");
             }
         }
+        {
+            System.out.println();
+        }
+//Task4
+        System.out.println("\nTask 4");
+        for (int i = 0; i < q.length; i++) {
+            if (q[i] % 2 != 0) {
+                q[i]++;
+            }
+            System.out.print(q[i] + " ");
+        }
     }
 }
