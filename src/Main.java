@@ -36,5 +36,32 @@ public class Main {
         {
             System.out.println();
         }
+
+//Task3
+        System.out.println("\nTask 3");
+        for (int i = q.length - 1; i >= 0; i--) {
+            System.out.print(q[i]);
+            if (i != 0) {
+                System.out.print(", ");
+            }
+        }
+        {
+            System.out.println();
+        }
+        for (int i = w.length - 1; i >= 0; i--) {
+            System.out.print(w[i]);
+            if (i != 0) {
+                System.out.print(", ");
+            }
+        }
+        {
+            System.out.println();
+        }
+        for (int i = e.length - 1; i >= 0; i--) {
+            System.out.print(e[i]);
+            if (i != 0) {
+                System.out.print(", ");
+            }
+        }
     }
 }
